@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color: gray;
+}
+
+div {
+    overflow: hidden;
+}
+
+.container {
+    height: 75vh;
+    border: 1px solid red;
+}
+
+#left {
+    width: 33vw;
+
+    overflow: hidden;
+    background-image: url("leaves_background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#right {
+    width: 66vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
