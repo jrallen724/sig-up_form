@@ -6,7 +6,7 @@
 body {
     display: flex;
     margin: 0;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -25,8 +25,7 @@ div {
 }
 
 #left {
-    width: 33vw;
-
+    width: 40vw;
     overflow: hidden;
     background-image: url("leaves_background.jpg");
     background-position: center;
@@ -34,7 +33,7 @@ div {
 }
 
 #right {
-    width: 67vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
 }
@@ -49,7 +48,7 @@ form {
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 33vw;
+    width: 40vw;
     height: 28%;
     top: 5rem;
     background: rgba(0, 0, 0, .5);
@@ -77,4 +76,9 @@ img {
 #sign-up {
     height: 33.3vh;
     background: white;
+}
+
+#create-account {    
+    background-color: #596D48
+    ;
 }
